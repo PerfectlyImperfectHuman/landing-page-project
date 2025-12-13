@@ -100,3 +100,42 @@ nav {
     justify-content: center;
     color: #fff;
 }
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 100px;
+    height: 500px;
+}
+
+.random-info h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.random-info .img-section {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.img-section > div {
+    width: 200px;
+    text-align: center;
+}
+
+.img-section > div > .img-box {
+    height: 220px;
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+}
+
+.img-section > div > p {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #4b5563;
+}
